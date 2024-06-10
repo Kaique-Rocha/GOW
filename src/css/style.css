@@ -1,0 +1,104 @@
+body{
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Shadows Into Light", cursive;
+    font-style: normal;
+    background: url("https://cdnb.artstation.com/p/assets/images/images/058/750/423/large/stephanie-chu-stephaniechu-artblast-10.jpg?1674879880") no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 60px 0 0 0;
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.btn-seta{
+    align-items: center;
+    margin-top: 32%;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    transform: background-color 0.2s ease-in-out;
+    display: flex;
+}
+
+.btn-seta img{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    transform: background-color 0.2s ease-in-out;
+}
+
+.btn-voltar{
+    transform: rotateY(180deg);
+}
+
+.btn-seta:hover{
+    background-color: #9f9f9f;
+}
+
+.home{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    gap: 80px;   
+    min-height: 70vh;
+}
+
+.personagem-history{
+    opacity: 0;
+    height: 100%;
+    position: absolute;
+    border-radius: 15px;
+
+}
+
+.personagem-history img{
+    width: 100%;
+    max-height: 380px;
+    border-radius: 15px;
+}
+
+.cartao-selecionado {
+    z-index: 1;
+    opacity: 1;
+}
+
+.personagens {
+    width: 330px;
+    height: 320px;
+    position: relative;
+}
+
+.personagem-history .text{
+    max-height: 200px;
+    overflow: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.personagem-history .text p{
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+.personagem-history .title{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-top: 20px;
+}
